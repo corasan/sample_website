@@ -1,0 +1,28 @@
+header {
+    color: black;
+}
+
+ul {
+    padding: 15px;
+    background-color: white;
+    margin-top: 0px;
+    /*position: fixed;*/
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #8b8b8b;
+    padding: 15px;
+}
+
+a:hover {
+    color: #37c3e0;
+    background-color: #f6f6f6;
+    padding: 15px;
+}

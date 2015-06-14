@@ -1,5 +1,3 @@
 <?php include('header.php'); ?>
-<div>
-    Hello World
-</div>
+<h1>Henry Paulino</h1>
 <?php include('footer.php') ?>
