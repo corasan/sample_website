@@ -1,12 +1,13 @@
-header {
-    color: black;
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 ul {
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
-    background-color: white;
     margin-top: 0px;
-    /*position: fixed;*/
 }
 
 li {
@@ -23,6 +24,13 @@ a {
 
 a:hover {
     color: #37c3e0;
-    background-color: #f6f6f6;
     padding: 15px;
+}
+
+p {
+    width: 100px;
+}
+
+body {
+    padding-top: 70px;
 }
