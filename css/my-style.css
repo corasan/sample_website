@@ -32,5 +32,18 @@ p {
 }
 
 body {
-    padding-top: 70px;
+    padding-top: 45px;
+}
+
+.welcome {
+    background: url("../img/window-cleaning-1.jpg");
+    background-size: cover;
+    height: 400px;
+    top: 0;
+    text-align: center;
+}
+
+.introduction {
+    font-size: 40px;
+    text-align: center;
 }
