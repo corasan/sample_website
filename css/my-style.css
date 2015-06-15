@@ -4,35 +4,42 @@
     top: 0;
 }
 
-ul {
+.nav ul {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
     margin-top: 0px;
 }
 
-li {
+.nav li {
     list-style-type: none;
     display: inline;
     font-weight: bold;
 }
 
-a {
+.nav a {
     text-decoration: none;
     color: #8b8b8b;
     padding: 15px;
 }
 
-a:hover {
+.nav a:hover {
     color: #37c3e0;
     padding: 15px;
 }
 
 p {
-    width: 100px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 body {
-    padding-top: 45px;
+    padding-top: 46px;
+}
+
+.web-body {
+    background-color: white;
+    padding-top: 1px;
 }
 
 .welcome {
@@ -41,9 +48,32 @@ body {
     height: 400px;
     top: 0;
     text-align: center;
+    width: 100%;
 }
 
 .introduction {
     font-size: 40px;
     text-align: center;
+}
+
+.footer {
+    background-color: #37c3e0;
+    padding-top: 1px;
+}
+
+.footer li {
+    list-style-type: none;
+    font-weight: bold;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
 }
